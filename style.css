@@ -1,0 +1,1038 @@
+.container
+{
+	height: 3560px;
+	width: 100%;
+	border: px solid;
+}
+.header
+{
+	height: 80px;
+	width: 100%;
+	border: px solid;
+	display: flex;
+	position: sticky;
+	top: 0px;
+	margin: 0px;
+	z-index: 1000;
+}
+.box
+{
+	height: 80px;
+	width: 20%;
+	border: px solid;
+	background-color: blue;
+}
+.box img
+{
+	background-image: url(logo.jpg);
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+
+}
+
+.box1
+{
+	height: 80px;
+	width: 80%;
+	border: px solid;
+	background-color: blue;
+}
+.box1 ul
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+.box1 ul li
+{
+	list-style: none;
+	color: white;
+	transition: .3s ease;
+}
+.box1 ul li:hover
+{
+	box-shadow: 0 0 4px 4px white;
+}
+
+.box1 ul button
+{
+	height: 30px;
+	width: 10%;
+	border-radius: 30px;
+	background-color: lightcoral;
+	color: white;
+	border-color: white;
+	transition: .3s ease;
+}
+.box1 ul button:hover
+{
+	box-shadow: 0 0 4px 4px white;
+}
+
+.box1 ul i
+{
+	display: none;
+}
+.body
+{
+	height: 600px;
+	width: 100%;
+	border: px solid;
+	display: flex;
+	background-color: blue;
+	border-radius: 0 0 25% 25%;
+	position: relative;
+/*	top: 3%;*/
+
+}
+.box3
+{
+	height: 650px;
+	width: 60%;
+	border: px solid;
+	color: white;
+
+}
+.box3 h1
+{
+	margin-left: 5%;
+	margin-bottom: 50px;
+	font-family: sans-serif;
+}
+.box3 h3
+{
+	margin-left: 5%;
+	margin-top: 80px;
+	font-family: sans-serif;
+}
+.box3 p
+{
+	margin-left: 5%;
+	margin-bottom: 50px;
+	font-family: "Dancing Script", cursive;
+}
+.box3 input
+{
+	margin-left: 5%;
+	height: 40px;
+	width: 50%;
+	border-radius: 20px;
+	padding-left: 4%;
+	transition: .4s ease;
+}
+.box3 input:hover
+{
+	transform: scale(1.2);
+	box-shadow: 0 0 20px orange;
+}
+.box3 button
+{
+	position: relative;
+	right: 70px;
+	height: 45px;
+	border-radius: 20px;
+	background-color: lightcoral;
+	border-color: white;
+	color: white;
+}
+
+.box4
+{
+	height: 650px;
+	width: 40%;
+	border: px solid;
+}
+.box4 img
+{
+	height: 390px;
+	width: 80%;
+	border: px solid;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 10%;
+}
+.box5
+{
+	height: 20px;
+	width: 10%;
+	padding: 5px 5px 5px 5px;
+	border: px solid;
+	position: relative;
+	bottom: 380px;
+	left: 75%;
+	border-radius: 40%;
+	background-color: blue;
+	color: white;
+}
+.box5 font
+{
+	margin-left: 18%;
+
+}
+.box6
+{
+	height: 12%;
+	width: 20%;
+	border: 1px solid white;
+	position: relative;
+	
+	bottom: 90px;
+	margin-left: 5%;
+	border-radius: 50%;
+	background-color: lightcoral;
+}
+.box6 h1
+{
+	text-align: center;
+	margin-top: 25px;
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.body1
+{
+	height: 150px;
+	width: 100%;
+	border: px solid;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box7
+{
+	height: 180px;
+	width: 20%;
+	border: px solid;
+	position: relative;
+	bottom: 50px;
+	border-radius: 10%;
+	background-color: #F8F8FF;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px grey;
+
+}
+.box7:hover
+{
+
+}
+.box7 i
+{
+	margin-top: 60px;
+	font-size: 50px;
+	color: blue;
+}
+.body2
+{
+	height: 180px;
+	width: 100%;
+	border: px solid;
+	margin-top: 100px;
+}
+.body2 h2
+{
+	color: lightcoral;
+	margin-left: 5%;
+	font-family: sans-serif;
+}
+.body2 h1
+{
+	margin-left: 5%;
+	font-family: sans-serif;
+}
+.body2 button
+{
+	margin-left: 50%;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
+	background-color: lightcoral;
+	transition: .5s ease;
+	border-color: white;
+	color: white;
+}
+.body2 button:hover
+{
+	background-color: blue;
+	box-shadow: 0 0 20px coral;
+}
+.body3
+{
+	height: 270px;
+	width: 100%;
+	border: px solid;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box8
+{
+	height: 230px;
+	width: 23%;
+	border: px solid;
+	border-radius: 20px;
+	background-color: #F8F8FF;
+	transition: .5s ease;
+}
+.box8:hover
+{
+	transform: scale(1.2);
+	box-shadow: 0 0 20px coral;
+
+}
+.box8 img
+{
+
+	height: 150px;
+	width: 100%;
+	border-radius: 20px;
+}
+.box8 h2
+{
+	font-size: 10px;
+	margin-left: 10%;
+	font-family: sans-serif;
+}
+.box8 h1
+{
+	font-size: 15px;
+	margin-left: 10%;
+	transition: .5s ease;
+	font-family: sans-serif;
+}
+.box8 i
+{
+	margin-left: 10%;
+	font-size: 20px;
+	color: coral;
+	transition: .5s ease;
+}
+.box8 h1:hover
+{
+	color: blue;
+}
+.box8 i:hover
+{
+	color: blue;
+}
+
+
+.body4
+{
+	height: 600px;
+	width: 100%;
+	border: px solid;
+	border-radius: 10%;
+	background-color: #F8F8FF;
+}
+.box9
+{
+	height: 140px;
+	width: 100%;
+	border: px solid;
+	position: relative;
+	top: 50px;
+	border-radius: 30px;
+}
+.box9 h1
+{
+	margin-left: 5%;
+	font-family: sans-serif;
+}
+.box9 h3
+{
+	margin-left: 5%;
+	color: coral;
+	font-family: sans-serif;
+}
+.box9 button
+{
+	margin-left: 65%;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
+	background-color: lightcoral;
+	transition: .5s ease;
+	color: white;
+}
+.box9 button:hover
+{
+	background-color: blue;
+	box-shadow: 0 0 20px coral;
+}
+.body5
+{
+	height: 300px;
+	width: 100%;
+	border: px solid;
+	position: relative;
+	top: 80px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box10
+{
+	height: 250px;
+	width: 13%;
+	border: px solid;
+	border-radius: 20px;
+	background-color: white;
+	transition: .5s ease;
+}
+.box10:hover
+{
+	transform: scale(1.2);
+	box-shadow: 0 0 20px coral;
+
+}
+.box10 img
+{
+	height: 100px;
+	width: 100%;
+	border-radius: 20px;
+}
+.box10 h1
+{
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.box10 h2
+{
+	text-align: center;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.box10 button
+{
+	margin-left: 19%;
+	padding: 5px 5px 5px 5px;
+	border-radius: 20px;
+	background-color: lightcoral;
+	transition: .5s ease;
+	color: white;
+}
+.box10 button:hover
+{
+	background-color: blue;
+	box-shadow: 0 0 20px coral;
+}
+
+
+.body6
+{
+	height: 100px;
+	width: 100%;
+	border: px solid;
+}
+.body6 h2
+{
+	text-align: center;
+	font-size: 15px;
+	color: coral;
+	font-family: sans-serif;
+}
+.body6 h1
+{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+
+.body7
+{
+	height: 400px;
+	width: 100%;
+	border: px solid;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box11
+{
+	height: 240px;
+	width: 16%;
+	border: px solid;
+	border-radius: 20px;
+	background-color: blue;
+	margin-top: 50px;
+	transition: .5s ease;
+}
+.box11:hover
+{
+	transform: scale(1.2);
+	box-shadow: 0 0 25px tomato;
+
+}
+.box11 img
+{
+	width: 100%;
+	border-radius: 20px;
+	margin-top: 17%;
+}
+.box11 h2
+{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+.body8
+{
+	height: 700px;
+	width: 100%;
+	border: px solid;
+
+}
+.body8 img
+
+{
+	margin-left: 26%;
+	margin-top: 15%;
+	height: 300px;
+	width: 50%;
+	border-radius: 20px;
+	display: flex;
+}
+.box12
+{
+	height: 400px;
+	width: 30%;
+	border: px solid;
+	position: relative;
+	bottom: 30%;
+	margin-left: 10%;
+	background-color: #F8F8FF;
+	border-radius: 20px;
+}
+
+.box13
+{
+	height: 300px;
+	width: 30%;
+	border: px solid;
+	position: relative;
+	bottom: 72%;
+	margin-left: 60%;
+	background-color: #F8F8FF;
+	border-radius: 20px;
+}
+.box12 h1
+
+{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-top: 40px;
+	font-family: sans-serif;
+
+}
+.box12 h3
+{
+	font-size: 20px;
+	color: coral;
+	margin-left: 20px;
+	font-family: sans-serif;
+
+}
+.box12 p
+{
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 30px;
+	font-family: "Dancing Script", cursive;
+}
+.box12 button
+{
+	padding: 5px 5px 5px 5px;
+	border-radius: 20px;
+	background-color: lightcoral;
+	margin-left: 20px;
+	margin-top: 20px;
+	transition: 0.5s ease-in-out;
+	color: white;
+}
+.box12 button:hover
+{
+	box-shadow: 0 0 20px coral;
+}
+.box12 span
+{
+	color: blue;
+}
+
+
+.box13 h1
+
+{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-top: 40px;
+	font-family: sans-serif;
+
+}
+.box13 h3
+{
+	font-size: 20px;
+	color: coral;
+	margin-left: 20px;
+	font-family: sans-serif;
+
+}
+
+.box13 span
+{
+	color: blue;
+}
+.box13 input
+{
+	padding: 0 0 5px 5px;
+	margin-left: 20px;
+	width: 50%;
+}
+
+.body9
+{
+	height: 150px;
+	width: 100%;
+	border: 1px solid;
+	border-radius: 100px 100px 0 0;
+	background-color: blue;
+	margin-top: 50px;
+
+}
+.body9 h3
+{
+	text-align: center;
+	color: white;
+	margin-top: 40px;
+	font-family: "Dancing Script", cursive;
+	font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 783px)
+{
+	.body 
+	{
+		flex-direction: column;
+		height: 900px;
+		width: 100%;
+	}
+	.box3
+	{
+		text-align: center;
+		width: 100%;
+	}
+	.box4
+	{
+		
+		width: 100%;
+	}
+	.box1 ul li 
+	{
+		display: none;
+	}
+	.box1 ul button
+	{
+		display: none;
+	}
+	.box1 ul i
+	{
+		display: inline-block;
+		color: white;
+	}
+	.box 
+	{
+		width: 50%;
+	}
+	.box img
+	{
+		width: 45%;
+		margin-left: 50px;
+
+	}
+	.box1
+	{
+		width: 50%;
+	}
+}
+@media(max-width: 765px)
+{
+	.box6 h1
+	{
+		font-size: 20px;
+	}
+	.box6
+	{
+		border-radius: 50%;
+		width: 20%;
+		height: 70px;
+	}
+}
+@media(max-width: 563px)
+{
+	.box6 h1
+	{
+		font-size: 20px;
+	}
+}
+@media(max-width: 563px)
+{
+	.box6
+	{
+		border-radius: 50%;
+		height: 10%;
+		width: 70px;
+	}
+	.box6 h1
+	{
+		margin-top: 20px;
+	}
+	.box3 input
+	{
+		margin-left: 5%;
+		height: 30px;
+		width: 50%;
+		border-radius: 20px;
+		padding-left: 3%;
+	}
+	.box3 button
+	{
+		height: 35px;
+	}
+}
+
+@media(max-width: 493px)
+{
+	.box3 input
+	{
+		margin-left: 5%;
+		height: 20px;
+		width: 40%;
+		border-radius: 10px;
+		padding-left: 3%;
+	}
+	.box3 button
+	{
+		height: 25px;
+		font-size: 10px;
+		margin-left: 28px;
+	}
+	.box5 font
+	{
+		margin-left: -4px;
+	}
+}
+@media(max-width: 401px)
+{
+	.box3 button
+	{
+		margin-left: 90px;
+	}
+}
+@media(max-width: 600px)
+{
+	.box img
+	{
+		width: 60%;
+	}
+}
+@media(max-width: 450px)
+{
+	.box img
+	{
+		width: 80%;
+		margin-left: -1px;
+		margin-left: 10px;
+	}
+}
+@media(max-width: 822px)
+{
+	.body2 button
+	{
+		margin-left: 20%;
+	}
+}
+@media(max-width: 522px)
+{
+	.body2 button
+	{
+		margin-left: 5%;
+	}
+}
+@media(max-width: 442px)
+{
+	.body2 button
+	{
+		margin-left: 3%;
+	}
+	.body2 h2
+	{
+		font-size: 22px;
+
+	}
+	.body2 h1
+	{
+		font-size: 22px;
+	}
+}
+/*@media(max-width: 654px)
+{
+	.box7
+	{
+		width: 80%;
+
+	}
+	.box7 i
+	{
+		font-size: 30px;
+	}
+}*/
+@/*media(max-width: 500px)
+{
+	.box7
+	{
+		width: 100%;
+	}
+}
+@media(max-width: 500px)
+{
+	.box7
+	{
+		width: 40%;
+	}
+}*/
+@media(max-width: 814px)
+{
+	.box9 button
+	{
+		margin-left: 50%;
+	}
+}
+@media(max-width: 712px)
+{
+	.box10 button
+	{
+		margin-left: 10%;
+	}
+}
+
+@media(max-width: 576px)
+{
+	.box10 button
+	{
+		margin-left: -3%;
+	}
+	.box9 button
+	{
+		margin-left: 20%;
+	}
+}
+/*@media(max-width: 478px)
+{
+	.box10 button
+	{
+		width: 100%;
+		height: 30px;
+		font-size: 8px;
+	}
+	.box10 h1
+	{
+		font-size: 13px;
+	}
+	.box10 h2
+	{
+		font-size: 10px;
+	}
+}*/
+/*@media(max-width: 368px)
+{
+	.box9 button
+	{
+		margin-left: 10%;
+	}
+}*/
+
+
+@media(max-width: 928px)
+{
+	.box11
+	{
+		height: 200px;
+	}
+}
+@media(max-width: 760px)
+{
+	.box11
+	{
+		height: 150px;
+	}
+}
+@media(max-width: 480px)
+{
+	.box11
+	{
+		height: 100px;
+		font-size: 10px;
+		position: relative;
+		margin-bottom: 50px;
+	}
+	
+}
+@media(max-width: 640px)
+{
+	.box12 h1
+	{
+		font-size: 15px;
+	}
+	.box13 h1
+	{
+		font-size: 15px;
+	}
+	.box12 h3
+	{
+		font-size: 15px;
+	}
+	.box13 h3
+	{
+		font-size: 15px;
+	}
+	.box13
+	{
+		height: 250px;
+	}
+
+}
+@media(max-width: 430px)
+{
+	.box13 h3
+	{
+		font-size: 12px;
+	}
+
+}
+@media(max-width: 655px)
+{
+	.body1
+	{
+		flex-direction: column;
+		height: 650px;
+		width: 100%;
+		align-items: center;
+		gap: 20px;
+
+	}
+	.box7
+	{
+		width: 40%;
+
+
+	}
+}
+
+@media(max-width: 735px)
+{
+	.body3
+	{
+		flex-direction: column;
+		align-items: center;
+		height: 1000px;
+	}
+	.box8
+	{
+		width: 45%;
+	}
+}
+@media(max-width: 670px)
+{
+	.body4
+	{
+		height: 2000px;
+		
+	}
+	.body5
+	{
+		flex-direction: column;
+		align-items: center;
+		gap: 40px;
+		
+		
+	}
+	.box10
+	{
+		width: 45%;
+
+	}
+	.box10 img
+	{
+		height: 150px;
+	}
+	.box10 button
+	{
+		margin-left: 36%;
+	}
+}
+@media(max-width: 430px)
+{
+	.box10 button
+	{
+		margin-left: 28%;
+	}
+}
+
+@media(max-width: 654px)
+{
+	.body6
+	{
+		height: 5px;
+	}
+	.body7
+	{
+		height: 1800px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.box11 
+	{
+		height: 150px;
+		width: 40%;
+
+	}
+	.box11 img
+	{
+		height: 150px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
